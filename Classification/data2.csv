@@ -1,0 +1,11 @@
+CustomerID,Age,Gender,Tenure,MonthlyCharges,ContractType,PaymentMethod,Churn
+C001,34,Male,12,70.5,Month-to-month,Credit card,No
+C002,45,Female,24,89.9,One year,Bank transfer,No
+C003,23,Female,3,65.3,Month-to-month,Electronic check,Yes
+C004,56,Male,36,99.2,Two year,Mailed check,No
+C005,31,Female,6,75.0,Month-to-month,Electronic check,Yes
+C006,40,Male,18,85.7,One year,Credit card,No
+C007,29,Female,2,60.1,Month-to-month,Bank transfer,Yes
+C008,52,Male,48,105.4,Two year,Credit card,No
+C009,37,Female,20,78.6,One year,Mailed check,No
+C010,26,Male,1,55.0,Month-to-month,Electronic check,Yes
