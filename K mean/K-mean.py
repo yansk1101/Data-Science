@@ -94,6 +94,7 @@ def plotting(groups, new_centroids):
     plt.title("K-means Clustering")
     plt.xlabel("X")
     plt.ylabel("Y")
+    plt.grid()
     plt.show()
 
 result = pd.read_csv("K mean\\data3.csv")  
@@ -134,4 +135,5 @@ while (flag):
 print(f"The final computed centroids are {new_centroids[0]} and {new_centroids[1]}")
 print(f"Group 1 (Final) : {groups[0]}")
 print(f"Group 2 (Final) : {groups[1]} \n")
+
 plotting(groups, new_centroids)

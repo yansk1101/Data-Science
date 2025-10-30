@@ -7,7 +7,7 @@ library(ggplot2)
 
 setwd("C:/Users/yanss/Documents/VSCode_try/association rule")
 
-#data <- read.csv("sample.csv")
+# data <- read.csv("sample.csv")
 items <- vector("numeric", length=5)
 items[1:5] <- 1:5
 data <- list(list(1,3,4), list(2,3,5), list(1,2,3,5), list(2,5), list(1,2,3,5))
