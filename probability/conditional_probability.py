@@ -5,9 +5,9 @@ def conditional_probability(counts):
 
 def geometric(p, x):
     mean = 1/p
-    var = (1-p)/p^2
+    var = (1-p)/p**2
     sd = math.sqrt(var)
-    probability = (1-p)^(x-1)*p
+    probability = (1-p)**(x-1)*p
     return mean, var, sd, probability
 
 def binomial():
