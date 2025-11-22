@@ -1,11 +1,5 @@
-CustomerID,Age,Gender,Tenure,MonthlyCharges,ContractType,PaymentMethod,Churn
-C001,34,Male,12,70.5,Month-to-month,Credit card,No
-C002,45,Female,24,89.9,One year,Bank transfer,No
-C003,23,Female,3,65.3,Month-to-month,Electronic check,Yes
-C004,56,Male,36,99.2,Two year,Mailed check,No
-C005,31,Female,6,75.0,Month-to-month,Electronic check,Yes
-C006,40,Male,18,85.7,One year,Credit card,No
-C007,29,Female,2,60.1,Month-to-month,Bank transfer,Yes
-C008,52,Male,48,105.4,Two year,Credit card,No
-C009,37,Female,20,78.6,One year,Mailed check,No
-C010,26,Male,1,55.0,Month-to-month,Electronic check,Yes
+Cancer_Stage,Frequent_Nose_Bleed,Infrequent_Nose_Bleed,Male,Female,Fast_Heartbeat,Slow_Heartbeat,Total
+Stage 1,400,100,350,150,450,50,500
+Stage 2,0,300,150,150,300,0,300
+Stage 3,100,100,150,50,50,150,200
+Total,500,500,650,350,800,200,1000

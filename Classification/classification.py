@@ -29,5 +29,9 @@ def discretization(column):
     column = pd.cut(column, bins = bins_arr, labels = labels_arr)
     
     return column
-
+class Naive_Bayes():
+    def likelihood():
+        return result
+    def evidence():
+        return result
 result = pd.read_csv("Classification\\data2.csv")
