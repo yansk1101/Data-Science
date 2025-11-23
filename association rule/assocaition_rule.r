@@ -7,6 +7,63 @@ library(ggplot2)
 
 setwd("C:/Users/yanss/Documents/VSCode_try/association rule")
 
+result <- read.csv("data.csv")
+
+items <- c(1, 2, 3, 4, 5)
+data <- c()
+
+count_items <- c()
+support_items <- c()
+frequent_items <- c()
+temp_items <- c()
+frequent_support_items <- c()
+frequent_itemsets <- c()
+temp_items <- c()
+frequent_itemsets <- c()
+all_supports <- c()
+
+minimum_support <- readline("Please enter the minimum support in probability: ")
+while ((minimum_support <= 0) | (minimum_support >= 1) | (minimum_support == "")){
+    minimum_support <- readline("Please enter the accurate minimum support value: ")
+}
+
+for (k in range(1, len(items)+1)){
+    count <- 0
+    for (i in range(0, len(data))){
+        for (j in range(0, len(data[i]))){
+            if (data[i][j] == k){
+                count <- count + 1
+            }
+        }
+    }
+    count_items <- append(count_items, count)
+}
+
+
+for (i in range(0, len(support_items))){
+    temp_items <- c()
+    if (support_items[i] >= minimum_support){
+        temp_items <- append(temp_items, i+1)
+        frequent_items <- append(frequent_items, temp_items)
+        frequent_itemsets <- append(frequent_itemsets, c(i+1))
+    }
+}
+
+new_frequent_itemsets <- c()
+k <- 1
+
+while ((frequent_itemsets) & (k < len(items))){
+    k <- k+1
+    temp <- c()
+    for (i in range(len(frequent_itemsets))){
+        for (j in range(i+1, len(frequent_itemsets))){
+            if (frequent_itemsets[i][:-1] == frequent_itemsets[j][:-1])
+        }
+    }
+}
+
+
+
 # data <- read.csv("sample.csv")
 items <- vector("numeric", length=5)
 items[1:5] <- 1:5
