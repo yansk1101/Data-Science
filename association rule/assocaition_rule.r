@@ -57,7 +57,7 @@ while ((frequent_itemsets) & (k < len(items))){
     temp <- c()
     for (i in range(len(frequent_itemsets))){
         for (j in range(i+1, len(frequent_itemsets))){
-            if (frequent_itemsets[i][:-1] == frequent_itemsets[j][:-1])
+            #if (frequent_itemsets[i][:-1] == frequent_itemsets[j][:-1])
         }
     }
 }
